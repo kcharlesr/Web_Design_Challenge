@@ -1,71 +1,68 @@
 /* kcharlesr */
 
-/* navbar */
+/* navbar styling*/
 a.navbar-brand{
     margin-left: 10px;
     padding: 10px;
     background-color: rgb(81, 175, 160);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: strong;
+}
 
 /* header */
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    padding: 20px;
- }
+h3{
+    color: rgb(81, 175, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    font-weight: strong;
+}
 
-/* img*/
+/* image */
 .img-thumbnail{
     padding:10px;
     border: none;
 }
 
+/* text font */
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   font-weight: strong;
+   padding:10px;
+}
+
 /* body */
 body{
-    background-color: ;
+    background-color: rgb(223, 222, 222);
 }
 .col-md-12{
-    background-color: rgb(223, 222, 222);
+    background-color: white;
     padding-top: 20px;
     padding-bottom:40px;
 }
 
+/* image border */
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
 
-
-/* navbar styling*/
+/* navbar */
 .navbar{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    padding:10px;
- }
-/* body */
 .nav-item.dropdown.show {
-    background-color: #dddddd;
+    background-color: #ddd;
 }
 
 .dropdown-menu {
     margin: 0;
 }
-/* image border styling*/
-.pic{
-    border: 3px solid rgb(81, 175, 160);
-}
 
-.h3{
-    color: rgb(81, 175, 160);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 15px;
-}
-
-/* content styling*/
+/* content */
 .content {
     padding-top: 50px;
     padding-bottom: 80px;
@@ -74,12 +71,10 @@ p{
 
 .content.bg-white {
     margin-top: 15px;
-    color: rgb(81, 175, 160)
 }
 
-
- /* media queries */
- @media(max-width:767px){
+/* media queries */
+@media(max-width:767px){
     .navbar.bg-light{
         background-color: rgb(81, 175, 160)!important;    
     }
