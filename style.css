@@ -1,20 +1,82 @@
 /* kcharlesr */
 
-/* navbar styling*/
+/* navbar */
 a.navbar-brand{
     margin-left: 10px;
     padding: 10px;
     background-color: rgb(81, 175, 160);
-    font-family: Comic sans-serif
+    font-family: Arial, Helvetica, sans-serif
     font-size: 20px;
     font-weight: bold;
 
-/* p */
+/* header */
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     padding: 20px;
  }
+
+/* img*/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* body */
+body{
+    background-color: ;
+}
+.col-md-12{
+    background-color: rgb(223, 222, 222);
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+
+
+/* navbar styling*/
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding:10px;
+ }
+/* body */
+.nav-item.dropdown.show {
+    background-color: #dddddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+/* image border styling*/
+.pic{
+    border: 3px solid rgb(81, 175, 160);
+}
+
+.h3{
+    color: rgb(81, 175, 160);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+/* content styling*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+    color: rgb(81, 175, 160)
+}
+
 
  /* media queries */
  @media(max-width:767px){
@@ -28,20 +90,4 @@ p{
     .navbar{
         padding:inherit;
     }
-}
-/* navbar styling*/
-.navbar{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-right:40px;
-}
-
-.nav-item.dropdown.show {
-    background-color: #ddd;
-}
-
-.dropdown-menu {
-    margin: 0;
-}
-
 }
